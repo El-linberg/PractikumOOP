@@ -3,7 +3,6 @@
     public abstract class Item
     {
         public abstract bool Stackable { get; }
-
         public virtual uint Amount { get; protected set; }
 
         public string Name { get; }
@@ -14,6 +13,7 @@
             Amount = 1;
         }
 
+        //Метод проверки стакается или нет предмет
         public bool TryStack(Item item)
         {
             if (!Stackable)

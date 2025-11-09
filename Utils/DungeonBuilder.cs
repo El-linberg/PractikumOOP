@@ -7,12 +7,12 @@ namespace GamePrototype.Utils
     {
         public static DungeonRoom BuildDungeon()
         {
-            var enter = new DungeonRoom("Enter");
-            var monsterRoom = new DungeonRoom("Monster", UnitFactoryDemo.CreateGoblinEnemy());
-            var emptyRoom = new DungeonRoom("Empty");
-            var lootRoom = new DungeonRoom("Loot1", new Gold());
-            var lootStoneRoom = new DungeonRoom("Loot1", new Grindstone("Stone"));
-            var finalRoom = new DungeonRoom("Final", new Grindstone("Stone1"));
+            var enter = new DungeonRoom("Нажми энтер");
+            var monsterRoom = new DungeonRoom("О нет, враг!", UnitFactoryDemo.CreateGoblinEnemy());
+            var emptyRoom = new DungeonRoom("Пусто(");
+            var lootRoom = new DungeonRoom("Золотишко", new Gold());
+            var lootStoneRoom = new DungeonRoom("О, это точильный камень, полезная вещь", new Grindstone("Точильный камень"));
+            var finalRoom = new DungeonRoom("Финал", new Grindstone("Точильный камень"));
 
             enter.TrySetDirection(Direction.Right, monsterRoom);
             enter.TrySetDirection(Direction.Left, emptyRoom);

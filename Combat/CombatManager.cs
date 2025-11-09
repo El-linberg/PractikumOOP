@@ -34,14 +34,14 @@ namespace GamePrototype.Combat
             return null;
         }
 
-        private string GetCombatString() => $"Type {RockPaperScissors.Rock} = {(int)RockPaperScissors.Rock}" +
-            $"or {RockPaperScissors.Paper} = {(int)RockPaperScissors.Paper}" +
-            $"or {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}";
+        private string GetCombatString() => $"Выберите {RockPaperScissors.Rock} = {(int)RockPaperScissors.Rock}" +
+            $"или {RockPaperScissors.Paper} = {(int)RockPaperScissors.Paper}" +
+            $"или {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}";
 
         private void HandleCombatInput(Unit player, Unit enemy, RockPaperScissors rockPaperScissors)
         {
             var enemyInput = (RockPaperScissors) _random.Next(1, 3);
-            Console.WriteLine($"Result player = {rockPaperScissors} and enemy = {enemyInput}");
+            Console.WriteLine($"Выбор игрока= {rockPaperScissors} и  аппонента = {enemyInput}");
             switch (rockPaperScissors) 
             {
                 // player hit
@@ -65,7 +65,7 @@ namespace GamePrototype.Combat
                     ApplyDamage(enemy, player);
                     break;
                 default:
-                    Console.WriteLine("Combatants tried to hit, but missed :(");
+                    Console.WriteLine("Бойцы ытались попасть, но промахнулись :(");
                     break;
             }
         }
@@ -73,10 +73,10 @@ namespace GamePrototype.Combat
         private void ApplyDamage(Unit attacker, Unit defender)
         {
             defender.ApplyDamage(attacker.GetUnitDamage());
-            Console.WriteLine($"{attacker.Name} hits {defender.Name}. {defender.Name} health {defender.Health}/{defender.MaxHealth}");
+            Console.WriteLine($"{attacker.Name} бьет {defender.Name}. {defender.Name} здоровье {defender.Health}/{defender.MaxHealth}");
             if (defender.Health == 0) 
             {
-                Console.WriteLine($"{defender.Name} is dead!");
+                Console.WriteLine($"{defender.Name} помер!");
             }
         }
     }

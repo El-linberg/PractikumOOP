@@ -2,7 +2,7 @@
 {
     public sealed class Goblin : Unit
     {
-        public Goblin(string name, uint health, uint maxHealth, uint baseDamage) : base(name, health, maxHealth, baseDamage)
+        public Goblin(string name, uint health, uint maxHealth, uint baseDamage, uint armour) : base(name, health, maxHealth, baseDamage, armour)
         {
         }
 

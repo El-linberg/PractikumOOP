@@ -14,7 +14,7 @@ namespace GamePrototype.Game
         public void StartGame() 
         {
             Initialize();
-            Console.WriteLine("Entering the dungeon");
+            Console.WriteLine("Вход в подземелье");
             StartGameLoop();
         }
 
@@ -22,11 +22,11 @@ namespace GamePrototype.Game
 
         private void Initialize()
         {
-            Console.WriteLine("Welcome, player!");
+            Console.WriteLine("Приветствую, путник!");
             _dungeon = DungeonBuilder.BuildDungeon();
-            Console.WriteLine("Enter your name");
+            Console.WriteLine("Как тебя зовут?");
             _player = UnitFactoryDemo.CreatePlayer(Console.ReadLine());
-            Console.WriteLine($"Hello {_player.Name}");
+            Console.WriteLine($"Рада знакомству, {_player.Name}");
         }
 
         private void StartGameLoop()
@@ -38,7 +38,7 @@ namespace GamePrototype.Game
                 StartRoomEncounter(currentRoom, out var success);
                 if (!success) 
                 {
-                    Console.WriteLine("Game over!");
+                    Console.WriteLine("Гейм овер!");
                     return;
                 }
                 DisplayRouteOptions(currentRoom);
@@ -51,12 +51,12 @@ namespace GamePrototype.Game
                     }
                     else 
                     {
-                        Console.WriteLine("Wrong direction!");
+                        Console.WriteLine("Не туда!");
                     }
                 }
             }
-            Console.WriteLine($"Congratulations, {_player.Name}");
-            Console.WriteLine("Result: ");
+            Console.WriteLine($"Поздравляю, {_player.Name}");
+            Console.WriteLine("Результат: ");
             Console.WriteLine(_player.ToString());
         }
 
@@ -88,7 +88,7 @@ namespace GamePrototype.Game
 
         private void DisplayRouteOptions(DungeonRoom currentRoom)
         {
-            Console.WriteLine("Where to go?");
+            Console.WriteLine("Куда пойдем?");
             foreach (var room in currentRoom.Rooms)
             {
                 Console.Write($"{room.Key} - {(int) room.Key}\t");

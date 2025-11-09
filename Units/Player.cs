@@ -9,7 +9,7 @@ namespace GamePrototype.Units
     {
         private readonly Dictionary<EquipSlot, EquipItem> _equipment = new();
 
-        public Player(string name, uint health, uint maxHealth, uint baseDamage) : base(name, health, maxHealth, baseDamage)
+        public Player(string name, uint health, uint maxHealth, uint baseDamage, uint armour) : base(name, health, maxHealth, baseDamage, armour)
         {            
         }
 
@@ -66,8 +66,8 @@ namespace GamePrototype.Units
         {
             var builder = new StringBuilder();
             builder.AppendLine(Name);
-            builder.AppendLine($"Health {Health}/{MaxHealth}");
-            builder.AppendLine("Loot:");
+            builder.AppendLine($"Здоровье {Health}/{MaxHealth}");
+            builder.AppendLine("Лут:");
             var items = Inventory.Items;
             for (int i = 0; i < items.Count; i++) 
             {

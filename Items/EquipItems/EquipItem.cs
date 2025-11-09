@@ -10,12 +10,14 @@ namespace GamePrototype.Items.EquipItems
         public uint Durability { get => _durability; protected set => _durability = value; }
         public override bool Stackable => false;
 
+        //Перечисление
         public abstract EquipSlot Slot { get; }
 
         protected EquipItem(uint maxDurability, string name) : base(name) => _maxDurability = maxDurability;
 
         public void ReduceDurability(uint delta) => _durability -= delta;
 
+        //Починка
         public void Repair(uint delta) => 
             _durability += _durability + delta > _maxDurability 
             ? _maxDurability 
