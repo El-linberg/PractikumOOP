@@ -2,6 +2,7 @@
 using GamePrototype.Dungeon;
 using GamePrototype.Units;
 using GamePrototype.Utils;
+using static GamePrototype.Game.GameLoop;
 
 namespace GamePrototype.Game
 {
@@ -9,8 +10,13 @@ namespace GamePrototype.Game
     {
         private Unit _player;
         private DungeonRoom _dungeon;
+        private complexity _complexity;
         private readonly CombatManager _combatManager = new CombatManager();
-        
+        public enum complexity
+            {
+            easy,
+            hard
+           }
         public void StartGame() 
         {
             Initialize();
@@ -19,14 +25,18 @@ namespace GamePrototype.Game
         }
 
         #region Game Loop
-
+       
         private void Initialize()
         {
+            Console.WriteLine("Выберите сложность");
+            _complexity = Console.ReadLine();
+
             Console.WriteLine("Приветствую, путник!");
             _dungeon = DungeonBuilder.BuildDungeon();
             Console.WriteLine("Как тебя зовут?");
             _player = UnitFactoryDemo.CreatePlayer(Console.ReadLine());
             Console.WriteLine($"Рада знакомству, {_player.Name}");
+            
         }
 
         private void StartGameLoop()
