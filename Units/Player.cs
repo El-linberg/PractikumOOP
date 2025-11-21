@@ -1,6 +1,7 @@
 ﻿using GamePrototype.Items.EconomicItems;
 using GamePrototype.Items.EquipItems;
 using GamePrototype.Utils;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace GamePrototype.Units
@@ -51,6 +52,15 @@ namespace GamePrototype.Units
             {
                 Health += healthPotion.HealthRestore;
             }
+            if (economicItem is Grindstone grindstone)
+            {
+
+                Repair();
+            }
+        }
+        public void Repair()
+        {
+
         }
 
         protected override uint CalculateAppliedDamage(uint damage)

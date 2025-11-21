@@ -35,13 +35,13 @@ namespace GamePrototype.Combat
         }
 
         private string GetCombatString() => $"Выберите {RockPaperScissors.Rock} = {(int)RockPaperScissors.Rock}" +
-            $"или {RockPaperScissors.Paper} = {(int)RockPaperScissors.Paper}" +
-            $"или {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}";
+            $" или {RockPaperScissors.Paper} = {(int)RockPaperScissors.Paper}" +
+            $" или {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}";
 
         private void HandleCombatInput(Unit player, Unit enemy, RockPaperScissors rockPaperScissors)
         {
             var enemyInput = (RockPaperScissors) _random.Next(1, 3);
-            Console.WriteLine($"Выбор игрока= {rockPaperScissors} и  аппонента = {enemyInput}");
+            Console.WriteLine($"Выбор игрока = {rockPaperScissors} и аппонента = {enemyInput}");
             switch (rockPaperScissors) 
             {
                 // player hit
@@ -65,7 +65,7 @@ namespace GamePrototype.Combat
                     ApplyDamage(enemy, player);
                     break;
                 default:
-                    Console.WriteLine("Бойцы ытались попасть, но промахнулись :(");
+                    Console.WriteLine("Бойцы пытались попасть, но промахнулись :(");
                     break;
             }
         }
