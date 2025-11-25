@@ -6,17 +6,17 @@ using static GamePrototype.Game.GameLoop;
 
 namespace GamePrototype.Game
 {
+    public enum Complexity
+    {
+        Easy=1,
+        Hard=2
+    }
     public sealed class GameLoop
     {
         private Unit _player;
         private DungeonRoom _dungeon;
-        private complexity _complexity;
+        private Complexity _complexity;
         private readonly CombatManager _combatManager = new CombatManager();
-        public enum complexity
-            {
-            easy,
-            hard
-           }
         public void StartGame() 
         {
             Initialize();
@@ -28,13 +28,18 @@ namespace GamePrototype.Game
        
         private void Initialize()
         {
-            Console.WriteLine("Выберите сложность");
-            _complexity = Console.ReadLine();
-
+            Console.WriteLine("Выберите сложность: 1 - Easy или 2 - Hard");
+            string input = Console.ReadLine();
+            Enum.TryParse(input, out _complexity);
+            if (Enum.TryParse(input, out _complexity) == false)
+            {
+                Console.WriteLine("Сложность введена не верно");
+                return;
+            }
             Console.WriteLine("Приветствую, путник!");
             _dungeon = DungeonBuilder.BuildDungeon();
             Console.WriteLine("Как тебя зовут?");
-            _player = UnitFactoryDemo.CreatePlayer(Console.ReadLine());
+            _player = PlayerFactory.CreateUnit(Console.ReadLine());
             Console.WriteLine($"Рада знакомству, {_player.Name}");
             
         }

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +43,12 @@
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\igork\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\practikumoop\\items\\economicitems\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -98,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,32 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EquipItem.cs",
-              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EquipItems\\EquipItem.cs",
-              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
-              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EquipItems\\EquipItem.cs",
-              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Player.cs",
               "RelativeDocumentMoniker": "Units\\Player.cs",
               "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Player.cs",
               "RelativeToolTip": "Units\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAwAAACQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T05:45:57.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Grindstone.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EconomicItems\\Grindstone.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\Grindstone.cs",
@@ -144,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EquipItems\\Weapon.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\Weapon.cs",
@@ -156,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "RockPaperScissors.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Combat\\RockPaperScissors.cs",
               "RelativeDocumentMoniker": "Combat\\RockPaperScissors.cs",
@@ -169,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "CombatManager.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Combat\\CombatManager.cs",
               "RelativeDocumentMoniker": "Combat\\CombatManager.cs",
@@ -194,15 +178,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Unit.cs",
               "RelativeDocumentMoniker": "Units\\Unit.cs",
               "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Unit.cs",
               "RelativeToolTip": "Units\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.534Z"
+              "WhenOpened": "2025-11-02T05:45:57.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -230,7 +215,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Game\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
+              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Game\\GameLoop.cs",
+              "RelativeToolTip": "Game\\GameLoop.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T05:45:57.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitFactoryDemo.cs",
+              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Utils\\UnitFactoryDemo.cs",
+              "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
+              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Utils\\UnitFactoryDemo.cs",
+              "RelativeToolTip": "Utils\\UnitFactoryDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T05:45:57.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameConstants.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Utils\\GameConstants.cs",
               "RelativeDocumentMoniker": "Utils\\GameConstants.cs",
@@ -238,23 +249,12 @@
               "RelativeToolTip": "Utils\\GameConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.545Z"
+              "WhenOpened": "2025-11-02T05:45:57.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitFactoryDemo.cs",
-              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Utils\\UnitFactoryDemo.cs",
-              "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
-              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Utils\\UnitFactoryDemo.cs",
-              "RelativeToolTip": "Utils\\UnitFactoryDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -262,11 +262,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.532Z"
+              "WhenOpened": "2025-11-02T05:45:57.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Direction.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Dungeon\\Direction.cs",
               "RelativeDocumentMoniker": "Dungeon\\Direction.cs",
@@ -279,13 +280,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DungeonRoom.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Dungeon\\DungeonRoom.cs",
               "RelativeDocumentMoniker": "Dungeon\\DungeonRoom.cs",
               "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Dungeon\\DungeonRoom.cs",
               "RelativeToolTip": "Dungeon\\DungeonRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T05:45:57.54Z",
               "EditorCaption": ""
@@ -304,16 +305,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameLoop.cs",
-              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Game\\GameLoop.cs",
-              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
-              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Game\\GameLoop.cs",
-              "RelativeToolTip": "Game\\GameLoop.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAApwB8AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "EquipItem.cs",
+              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
+              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T05:45:57.55Z"
             },
             {
               "$type": "Document",
@@ -354,18 +354,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Goblin.cs",
-              "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Goblin.cs",
-              "RelativeDocumentMoniker": "Units\\Goblin.cs",
-              "ToolTip": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Units\\Goblin.cs",
-              "RelativeToolTip": "Units\\Goblin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T05:45:57.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "HealthPotion.cs",
               "DocumentMoniker": "C:\\Users\\Igork\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\PractikumOOP\\Items\\EconomicItems\\HealthPotion.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\HealthPotion.cs",

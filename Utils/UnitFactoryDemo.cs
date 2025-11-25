@@ -4,16 +4,34 @@ using GamePrototype.Units;
 
 namespace GamePrototype.Utils
 {
-    public class UnitFactoryDemo
+    public abstract class UnitFactory
     {
-        public static Unit CreatePlayer(string name)
+        public abstract Unit CreateUnit(string UnitName);
+    }
+
+
+    public class PlayerFactory:UnitFactory
+    {
+        public override Unit CreateUnit(string name)
         {
             var player = new Player(name, 30, 30, 6, 3);
             player.AddItemToInventory(new Weapon(10, 15, "Золото"));
             player.AddItemToInventory(new HealthPotion("Зелье"));
             return player;
         }
-
-        public static Unit CreateGoblinEnemy() => new Goblin(GameConstants.Goblin, 18, 18, 2, 0);
+    }
+    public class EasyUnitFactory:UnitFactory
+    {
+        public override Unit CreateUnit(string UnitName)
+        {
+           return new Goblin(GameConstants.Goblin, 18, 18, 2, 0);
+        }
+    }
+    public class HardUnitFactory : UnitFactory
+    {
+        public override Unit CreateUnit(string UnitName)
+        {
+            return new Goblin(GameConstants.Goblin, 36, 36, 5, 3);
+        }
     }
 }
